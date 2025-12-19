@@ -5,12 +5,18 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Noble</title>
+      <link rel="stylesheet" href="/Assets/styles/style.css" />
     </head>
     
     <body>
       <header>
         <img src="/Assets/Images/header-icon.png" alt="" />
         <h1>Noble Apartments</h1>
+          <button class="hamburger" id="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
         <nav>
           <li><a href="Dashboard.html">Home</a></li>
           <li><a href="about_us.html">About us</a></li>
@@ -26,7 +32,7 @@
           </div>
           <div>
             <select name="location" id="location">
-              <option value=""></option>
+              <option value="">location</option>
               <option value="abia">Abia</option>
               <option value="adamawa">Adamawa</option>
               <option value="akwa-ibom">Akwa Ibom</option>
@@ -64,6 +70,7 @@
               <option value="yobe">Yobe</option>
               <option value="zamfara">Zamfara</option>
             </select>
+            <input type="text" name="search" id="search" placeholder="search 🔎" />
           </div>
         </section>
  <!-- Browse by Property Type -->
