@@ -319,7 +319,7 @@ footer {
   background-color: #1f2937;
   color: #fff;
   padding: 60px 60px 30px;
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1.5fr 2fr;
   gap: 60px;
 }
@@ -789,5 +789,21 @@ footer > div:nth-child(2) img:hover {
 }
 
 #welcome-section {
-  background-image: url();
+  background-image: url(/Assets/Images/index-background.jpg);
+  background-position: center;
+  background-size: cover;
+  div {
+    padding: 5%;
+    color: #000000;
+    h1 {
+      font-size: 400%;
+    }
+    p{
+      font-size: 200%;
+    }
+  }
+}
+
+.copy {
+  text-align: center;
 }
