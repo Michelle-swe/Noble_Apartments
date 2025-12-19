@@ -788,4 +788,6 @@ footer > div:nth-child(2) img:hover {
   border-color: #10b981 !important;
 }
 
-#welcome-section
+#welcome-section {
+  background-image: url();
+}
