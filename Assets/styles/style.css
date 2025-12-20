@@ -169,7 +169,20 @@ main > section:first-child > div:nth-child(2) {
 }
 .search {
   display: flex;
-  gap:5px
+  gap:5px;
+  .btn-search {
+    background-color: #2563eb;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  color: #e5e7eb;
+  }
+  .btn-search:hover{
+    background-color: #1d4ed8;
+  transform: translateY(-2px);
+  }
 }
 
 /* Property Types Section */
