@@ -7,7 +7,8 @@
   <title>Sign-up</title>
   <link rel="shortcut icon" href="/Assets/Images/header-icon.png" type="image/x-icon" />
   <link rel="stylesheet" href="Assets/styles/style.css">
-  <script src="script.js" type="text/javascript" charset="utf-8" defer></script>
+  <script src="script.js"
+  defer></script>
   </head>
 
 <body>
@@ -16,7 +17,7 @@
       <h2>Create your account</h2>
       <p class="small muted">Join Noble Apartments to find and manage listings.</p>
 
-      <form action="#" method="post" class="auth-form" novalidate>
+      <form method="post" class="auth-form" id="registerForm" novalidate>
         <div class="form-group">
           <label for="username">Username</label>
           <input type="text" name="username" id="username" required autocomplete="username" />
@@ -32,10 +33,7 @@
           <input type="password" name="password" id="password" required autocomplete="new-password" />
         </div>
 
-        <div class="form-group">
-          <label for="confirm_password">Confirm password</label>
-          <input type="password" name="confirm_password" id="confirm_password" required autocomplete="new-password" />
-        </div>
+        
 
         <div class="form-group">
           <button type="submit" class="btn-primary">Sign up</button>
